@@ -15,34 +15,32 @@ header{
 header img{
   width: 100px;
 }
-.menu-list{
-  display: flex;
-  gap: 20px;
-  list-style: none;
-}
-.menu-list a{
-  text-decoration: none;
-}
+
 
 
 /* General Styles */
 .footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem;
-  background-color: #f8f9fa;
-  border-top: 1px solid #ddd;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+  margin-top: 50px;
+}
+
+.footer__address {
+  margin: 1rem 0;
+}
+
+.footer__social {
+  justify-content: center;
 }
 
 .footer__logo img {
-  width: 100px;
+  width: 130px;
 }
 
 .footer__address {
   flex: 1;
   text-align: center;
-  font-size: 0.9rem;
   color: #555;
 }
 
@@ -58,11 +56,6 @@ header img{
 .footer__social-icon {
   width: 24px;
   height: 24px;
-  transition: transform 0.3s;
-}
-
-.footer__social-link:hover .footer__social-icon {
-  transform: scale(1.1);
 }
 
 /* Mobile Styles */
