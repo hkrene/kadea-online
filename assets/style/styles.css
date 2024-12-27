@@ -23,3 +23,61 @@ header img{
 .menu-list a{
   text-decoration: none;
 }
+
+
+/* General Styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+}
+
+.footer__logo img {
+  width: 100px;
+}
+
+.footer__address {
+  flex: 1;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer__social {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__social-link {
+  display: inline-block;
+}
+
+.footer__social-icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s;
+}
+
+.footer__social-link:hover .footer__social-icon {
+  transform: scale(1.1);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.5rem;
+  }
+
+  .footer__address {
+      margin: 1rem 0;
+  }
+
+  .footer__social {
+      justify-content: center;
+  }
+}
