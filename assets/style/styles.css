@@ -99,7 +99,7 @@ header{
   color: #FFFFFF;
 }
 .learning{
-  padding: 100px 300px;
+  padding: 100px 300px 80px;
 }
 .learning__title{
   text-align: center;
@@ -128,8 +128,30 @@ header{
   padding: 0 300px;
   background-color: #FAF3E9;
 }
-
-
+.contact__title{
+  text-align: center;
+  font-size: 25px;
+  color: #3E3D3D;
+  padding: 100px 0;
+}
+.contact__form{
+}
+.contact__form-group{
+  display: flex;
+  gap: 20px;
+}
+.contact__form-field label{
+  display: block;
+}
+.contact__form-message label{
+  display: block;
+}
+#message{
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  background-color: transparent;
+}
 
 
 
