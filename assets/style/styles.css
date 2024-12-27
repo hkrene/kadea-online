@@ -83,6 +83,7 @@ header{
   align-items: center;
   padding: 100px 300px 80px;
   background-color: #282C34;
+  color: #FFFFFF;
 }
 .start-coding__content{
   max-width: 530px;
@@ -90,13 +91,48 @@ header{
 }
 .start-coding__title{
   font-size: 18px;
-  color: white;
+  color: #FFFFFF;
   margin-bottom: 30px;
 }
 .start-coding__description{
   font-size: 18px;
-  color: white;
+  color: #FFFFFF;
 }
+.learning{
+  padding: 100px 300px;
+}
+.learning__title{
+  text-align: center;
+  font-size: 25px;
+  color: #3E3D3D;
+}
+.learning__courses{
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 100px 0;
+}
+.learning__course{
+  padding: 50px 70px;
+  border : none;
+  background-color: #FAF3E9;
+  border-radius: 10px;
+  color: #3E3D3D;
+}
+.learning__more a{
+  color: #D92950;
+  font-size: 18px;
+  font-weight: 600;
+}
+.contact{
+  padding: 0 300px;
+  background-color: #FAF3E9;
+}
+
+
+
+
+
 
 
 
