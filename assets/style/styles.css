@@ -134,11 +134,8 @@ header{
   color: #3E3D3D;
   padding: 100px 0;
 }
-.contact__form{
-}
 .contact__form-group{
   display: flex;
-  gap: 20px;
 }
 .contact__form-field label{
   display: block;
@@ -146,6 +143,19 @@ header{
 .contact__form-message label{
   display: block;
 }
+#name{
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+#email{
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+
+}
+
+
 #message{
   width: 100%;
   height: 150px;
