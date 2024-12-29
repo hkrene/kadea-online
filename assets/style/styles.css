@@ -122,6 +122,10 @@ header{
   border-radius: 10px;
   color: #3E3D3D;
 }
+.learning__more{
+  display: flex;
+  gap: 50px;
+}
 .learning__more a{
   color: #D92950;
   font-size: 18px;
