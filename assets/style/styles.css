@@ -125,12 +125,6 @@ header{
   grid-row: 3;
   grid-column: 3;
 }
-.learning__course-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 5px;
-}
 .learning__more{
   display: flex;
   gap: 50px;
