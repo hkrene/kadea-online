@@ -139,13 +139,17 @@ header{
 }
 .contact__form-group{
   display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 .contact__form-field label{
   display: block;
 }
+.contact__form-field{
+  width: 45%;
+}
 .contact__form-message {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .contact__form-message label{
   display: block;
@@ -153,19 +157,16 @@ header{
 }
 #name{
   height: 50px;
+  width: 100%;
   border-radius: 10px;
   background-color: transparent;
-  width: 300px;
 }
 #email{
   height: 50px;
+  width: 100%;
   border-radius: 10px;
   background-color: transparent;
-  width: 300px;
-
 }
-
-
 #message{
   width: 100%;
   height: 150px;
@@ -177,8 +178,6 @@ header{
   display: flex;
   justify-content: end;
 }
-
-
 .contact__form-btn{
   padding: 10px;
   width: 300px;
