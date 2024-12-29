@@ -121,6 +121,9 @@ header{
   background-color: #FAF3E9;
   border-radius: 10px;
   color: #3E3D3D;
+  display: grid;
+  grid-row: 3;
+  grid-column: 3;
 }
 .learning__more{
   display: flex;
