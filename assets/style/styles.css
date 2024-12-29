@@ -149,30 +149,32 @@ header{
   width: 45%;
 }
 .contact__form-message {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .contact__form-message label{
   display: block;
   width: 100%;
 }
 #name{
-  height: 50px;
+  height: 65px;
   width: 100%;
   border-radius: 10px;
   background-color: transparent;
+  margin-top: 15px;
 }
 #email{
-  height: 50px;
+  height: 65px;
   width: 100%;
   border-radius: 10px;
   background-color: transparent;
+  margin-top: 15px;
 }
 #message{
   width: 100%;
-  height: 150px;
+  height: 180px;
   border-radius: 10px;
   background-color: transparent;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .contact__form-cta{
   display: flex;
@@ -190,23 +192,13 @@ header{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* General Styles */
 .footer {
   flex-direction: column;
   text-align: center;
   gap: 1.5rem;
-  margin-top: 50px;
+  margin: 80px 0;
+  font-size: 20px;
 }
 
 .footer__address {
@@ -218,18 +210,18 @@ header{
 }
 
 .footer__logo img {
-  width: 130px;
+  width: 150px;
 }
 
 .footer__address {
   flex: 1;
   text-align: center;
-  color: #555;
+  color:  #282C34;
 }
 
 .footer__social {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .footer__social-link {
@@ -237,8 +229,8 @@ header{
 }
 
 .footer__social-icon {
-  width: 24px;
-  height: 24px;
+  width: 25px;
+  height: 25px;
 }
 
 /* Mobile Styles */
