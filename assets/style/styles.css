@@ -139,24 +139,29 @@ header{
 }
 .contact__form-group{
   display: flex;
+  width: 100%;
 }
 .contact__form-field label{
   display: block;
 }
 .contact__form-message {
+  margin-top: 20px;
 }
 .contact__form-message label{
   display: block;
+  width: 100%;
 }
 #name{
   height: 50px;
   border-radius: 10px;
   background-color: transparent;
+  width: 300px;
 }
 #email{
   height: 50px;
   border-radius: 10px;
   background-color: transparent;
+  width: 300px;
 
 }
 
@@ -166,6 +171,7 @@ header{
   height: 150px;
   border-radius: 10px;
   background-color: transparent;
+  margin-top: 10px;
 }
 .contact__form-cta{
   display: flex;
