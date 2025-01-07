@@ -88,19 +88,38 @@ header{
   background-color: #282C34;
   color: #FFFFFF;
 }
+.improve-skills{
+  display: flex;
+  align-items: center;
+  padding: 100px 300px 80px;
+  background-color: #faf3e9;
+  color: #34282b;
+}
 .start-coding__content{
   max-width: 530px;
   padding-left: 50px;
 }
 .start-coding__title{
   font-size: 18px;
-  color: #FFFFFF;
+  color: #34282b;
   margin-bottom: 30px;
 }
 .start-coding__description{
   font-size: 18px;
   color: #FFFFFF;
 }
+
+
+.start-coding__title-skills{
+  font-size: 18px;
+  color: #34282b;
+  margin-bottom: 30px;
+}
+.start-coding__description{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
 .learning{
   padding: 100px 300px 80px;
 }
