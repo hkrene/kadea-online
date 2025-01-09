@@ -153,6 +153,12 @@ header{
   font-size: 18px;
   font-weight: 600;
 }
+.container{
+  grid-template-columns: ;
+  grid-template-rows: ;
+}
+
+
 .contact{
   padding: 0 300px;
   background-color: #FAF3E9;
